@@ -1,0 +1,164 @@
+/*empieza el header*/
+.header{
+    background: #333;
+    color:white;
+    padding:0rem 0;
+    position:fixed;
+    left: 0;
+    top:0;
+    right:0;
+}
+.header a
+{color:white;
+text-decoration:none;
+font-style: italic;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.logo{ 
+     width: 180px;
+    height:150px;
+    margin-left: 250px;
+    
+}
+
+.menu-icon{
+    display:none;
+}
+
+.navegacion li ul {
+    display:none;
+    position: absolute;;
+    min-width:140px;
+}
+
+.navegacion > li {float:left;}
+.navegacion li:hover > ul{display:block}
+.navegacion li ul li {position:relative;}
+.navegacion ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.navegacion ul li {
+    display: inline-block;
+}
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navegacion ul li a:hover {
+    background: #4a4a4a;
+}
+/*Termina el header*/
+
+/*Empieza el Main*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+body{
+    background: #E2E2E2;
+    font-family: "Lato";
+}
+
+.portafolio{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.portafolio h1{
+    text-align: center;
+    font-size: 38px;
+    margin: 15px 0px 40px;
+}
+
+.portafolio-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.portafolio-item{
+    width:30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.portafolio-text{
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+
+    background: rgba(19, 28, 59, 0.342);
+    color: #fff;
+
+    transform: translateY(100%);
+
+    transition: all 0.5s ease-out;
+
+}
+
+.portafolio-text p{
+    text-align: justify;
+}
+
+.portafolio-item:hover .portafolio-text{
+    transform: translateY(0%);
+}
+
+#curado{
+    width: 30%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+p.parrafo1{
+    font-style: italic;
+    color: #D4AF7B;
+    position: absolute;
+}
+
+h1.h1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+table.th.td{
+    width: 100%;
+    
+}
+
+/*Aqui termina el Main*/
+
+/*Aqui empieza el Footer*/
+
+
+
+#Wapps{
+    width: 450px;
+    float: right;
+}
+
+#dinahosting{
+    width: 450px;
+    float: left;
+}
